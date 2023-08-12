@@ -211,8 +211,8 @@ git clone -b "$ROCM_BRANCH" https://github.com/ROCm-Developer-Tools/HIPCC.git
 
 ```shell
 export HIP_DIR="$(readlink -f hip)"
-export CLR_DIR="$(readlink -f hipamd)"
-export HIPCC_DIR="$(readlink -f hipcc)"
+export CLR_DIR="$(readlink -f clr/hipamd)"
+export HIPCC_DIR="$(readlink -f HIPCC)"
 ```
 
 ### Build the HIPCC runtime
